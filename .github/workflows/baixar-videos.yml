@@ -21,6 +21,7 @@ jobs:
           while read -r nome url; do
             [ -z "$nome" ] && continue
             case "$nome" in \#*) continue;; esac
+            case "$nome" in *.jpg|*.png|*.webp) [ -f "video/$nome" ] || curl -sSL -m 120 -o "video/$nome" "$url"; continue;; esac
             [ -f "video/$nome.mp4" ] && { echo "ja existe $nome"; continue; }
             curl -sSL -m 300 -o /tmp/in.mp4 "$url" || { echo "falhou $nome"; continue; }
             if [ "$nome" = "idle_loop" ]; then
