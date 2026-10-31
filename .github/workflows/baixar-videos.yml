@@ -1,0 +1,39 @@
+name: Baixar e comprimir videos da Mei
+on:
+  push:
+    branches: [mei-assets]
+    paths: ['urls.txt']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  baixar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: mei-assets
+      - name: Instalar ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Baixar e comprimir
+        run: |
+          mkdir -p video
+          while read -r nome url; do
+            [ -z "$nome" ] && continue
+            case "$nome" in \#*) continue;; esac
+            [ -f "video/$nome.mp4" ] && { echo "ja existe $nome"; continue; }
+            curl -sSL -m 300 -o /tmp/in.mp4 "$url" || { echo "falhou $nome"; continue; }
+            if [ "$nome" = "idle_loop" ]; then
+              ffmpeg -y -loglevel error -i /tmp/in.mp4 -an -vf "scale=720:-2,fps=30" -c:v libx264 -preset veryfast -crf 26 -pix_fmt yuv420p -movflags +faststart "video/$nome.mp4"
+            else
+              ffmpeg -y -loglevel error -i /tmp/in.mp4 -vf "scale=720:-2,fps=30" -c:v libx264 -preset veryfast -crf 26 -pix_fmt yuv420p -c:a aac -b:a 96k -ac 1 -movflags +faststart "video/$nome.mp4"
+            fi
+            ls -la "video/$nome.mp4"
+          done < urls.txt
+      - name: Publicar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add video
+          git commit -m "Videos da Mei" || echo "nada novo"
+          git push
