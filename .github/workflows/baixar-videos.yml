@@ -23,11 +23,11 @@ jobs:
             case "$nome" in \#*) continue;; esac
             case "$nome" in *.jpg|*.png|*.webp) [ -f "video/$nome" ] || curl -sSL -m 120 -o "video/$nome" "$url"; continue;; esac
             [ -f "video/$nome.mp4" ] && { echo "ja existe $nome"; continue; }
-            curl -sSL -m 300 -o /tmp/in.mp4 "$url" || { echo "falhou $nome"; continue; }
+            curl -sSL -m 300 -o /tmp/in.mp4 "$url" < /dev/null || { echo "falhou $nome"; continue; }
             if [ "$nome" = "idle_loop" ]; then
-              ffmpeg -y -loglevel error -i /tmp/in.mp4 -an -vf "scale=720:-2,fps=30" -c:v libx264 -preset veryfast -crf 26 -pix_fmt yuv420p -movflags +faststart "video/$nome.mp4"
+              ffmpeg -nostdin -y -loglevel error -i /tmp/in.mp4 -an -vf "scale=720:-2,fps=30" -c:v libx264 -preset veryfast -crf 26 -pix_fmt yuv420p -movflags +faststart "video/$nome.mp4"
             else
-              ffmpeg -y -loglevel error -i /tmp/in.mp4 -vf "scale=720:-2,fps=30" -c:v libx264 -preset veryfast -crf 26 -pix_fmt yuv420p -c:a aac -b:a 96k -ac 1 -movflags +faststart "video/$nome.mp4"
+              ffmpeg -nostdin -y -loglevel error -i /tmp/in.mp4 -vf "scale=720:-2,fps=30" -c:v libx264 -preset veryfast -crf 26 -pix_fmt yuv420p -c:a aac -b:a 96k -ac 1 -movflags +faststart "video/$nome.mp4"
             fi
             ls -la "video/$nome.mp4"
           done < urls.txt
