@@ -8,3 +8,4 @@ r02_30 https://tempfile.aiquickdraw.com/k/c9132732e8924530e0be226b4741104a_1_179
 r02_40 https://tempfile.aiquickdraw.com/k/2f6810be861f7ec2441a5ff303e0f7c1_1_1793482083_2114.mp4
 r02_50 https://tempfile.aiquickdraw.com/k/96d0af95c0da8d104d3eaa15fdaf55f3_1_1793482569_3778.mp4
 danca_intro https://tempfile.aiquickdraw.com/k/4576ff642c86bda7f1eaf000774a2973_1_1793482531_7606.mp4
+c03_objetivo https://tempfile.aiquickdraw.com/k/c307edad00edfedf4edb1aed03e97513_1_1793483030_3036.mp4
