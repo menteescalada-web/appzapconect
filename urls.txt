@@ -45,3 +45,6 @@ mp_mostra https://tempfile.aiquickdraw.com/k/67d3c157732160728f0cf0f9b8acbd6b_1_
 mp_molho https://tempfile.aiquickdraw.com/k/dbe3331565623c078b225265cd5feaee_1_1793560745_8624.mp4
 natal-colecao.webp https://natal.donaflorreceitas.site/images/banner-colecao.webp
 natal-panetones.webp https://natal.donaflorreceitas.site/images/banner-panetones-560.webp
+natal-ceia.webp https://natal.donaflorreceitas.site/images/banner-ceia.webp
+natal-biscoitos.webp https://natal.donaflorreceitas.site/images/banner-biscoitos.webp
+natal-panetones-capa.webp https://natal.donaflorreceitas.site/images/banner-panetones.webp
