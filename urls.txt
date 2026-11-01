@@ -24,3 +24,4 @@ df_base.jpg https://tempfile.aiquickdraw.com/workers/images/image_1d5569667d5e3e
 t_seedance https://tempfile.aiquickdraw.com/seedance/1793538062406-o1bqj8klji8.mp4
 df_panetone https://tempfile.aiquickdraw.com/k/5b0755d452502c4eadd79aaaa944d645_1_1793552741_5058.mp4
 df_biscoito https://tempfile.aiquickdraw.com/k/eadc76d048dc7c96f7aa0d42cce9cf8b_1_1793552745_6036.mp4
+df_forno https://tempfile.aiquickdraw.com/k/27e717d5c84f54133d8d089e1eb2d8dc_1_1793553895_3733.mp4
