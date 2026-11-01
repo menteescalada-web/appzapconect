@@ -22,3 +22,5 @@ d_joelho https://tempfile.aiquickdraw.com/k/9e5ce001c3f475a99ce484d8bf2293ff_1_1
 d_final https://tempfile.aiquickdraw.com/k/fe6aca5cf07e7f6c4ca2108f92f4ae70_1_1793498565_3614.mp4
 df_base.jpg https://tempfile.aiquickdraw.com/workers/images/image_1d5569667d5e3e8bdcd2d51b690d7fac.jpg
 t_seedance https://tempfile.aiquickdraw.com/seedance/1793538062406-o1bqj8klji8.mp4
+df_panetone https://tempfile.aiquickdraw.com/k/5b0755d452502c4eadd79aaaa944d645_1_1793552741_5058.mp4
+df_biscoito https://tempfile.aiquickdraw.com/k/eadc76d048dc7c96f7aa0d42cce9cf8b_1_1793552745_6036.mp4
