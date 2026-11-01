@@ -39,3 +39,6 @@ cg_enche https://tempfile.aiquickdraw.com/k/07b76bdffd5ec975566390ead24943e9_1_1
 cg_embala https://tempfile.aiquickdraw.com/k/fc57ae11d9b3fe43e285dbcc51564181_1_1793559302_6883.mp4
 cg_mostra https://tempfile.aiquickdraw.com/k/c118f8e5ead3320da36fda6f65e712b7_1_1793559580_5126.mp4
 mp_base.jpg https://tempfile.aiquickdraw.com/workers/images/image_450e8a461bc5986896bc61959451f500.jpg
+mp_pate https://tempfile.aiquickdraw.com/k/aefc9185ffb873bd9b30c5030a1bd0e0_1_1793560535_9444.mp4
+mp_kit https://tempfile.aiquickdraw.com/k/f206f09f2d3d1e573bbb68d2dfe437f0_1_1793560536_2908.mp4
+mp_mostra https://tempfile.aiquickdraw.com/k/67d3c157732160728f0cf0f9b8acbd6b_1_1793560541_8815.mp4
