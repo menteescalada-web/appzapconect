@@ -20,3 +20,5 @@ d_abertura https://tempfile.aiquickdraw.com/k/f5740d5b5e2d54c5c82476c6beebe1ec_1
 d_lua https://tempfile.aiquickdraw.com/k/4efd33e0e4774bbfa839e042f37c3bab_1_1793496892_3847.mp4
 d_joelho https://tempfile.aiquickdraw.com/k/9e5ce001c3f475a99ce484d8bf2293ff_1_1793496907_8995.mp4
 d_final https://tempfile.aiquickdraw.com/k/fe6aca5cf07e7f6c4ca2108f92f4ae70_1_1793498565_3614.mp4
+df_base.jpg https://tempfile.aiquickdraw.com/workers/images/image_1d5569667d5e3e8bdcd2d51b690d7fac.jpg
+t_seedance https://tempfile.aiquickdraw.com/seedance/1793538062406-o1bqj8klji8.mp4
