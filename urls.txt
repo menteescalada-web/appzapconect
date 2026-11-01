@@ -33,3 +33,4 @@ ar_decora https://tempfile.aiquickdraw.com/k/985d9d3c5a7d9240ff6b9c68e5c202e4_1_
 ar_embala https://tempfile.aiquickdraw.com/k/497d080afa349ef7835569ba52c17c4b_1_1793556713_4283.mp4
 bandeiras.webp https://natal.donaflorreceitas.site/images/bandeiras.webp
 dona-flor-retrato.webp https://natal.donaflorreceitas.site/images/dona-flor-retrato.webp
+cg_base.jpg https://tempfile.aiquickdraw.com/workers/images/image_2c5335ba4518b25edb1d4bf63e7bac7f.jpg
