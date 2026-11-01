@@ -37,3 +37,4 @@ cg_base.jpg https://tempfile.aiquickdraw.com/workers/images/image_2c5335ba4518b2
 cg_mexe https://tempfile.aiquickdraw.com/k/daed2cc0c0eee83587869ab100a39837_1_1793559286_2105.mp4
 cg_enche https://tempfile.aiquickdraw.com/k/07b76bdffd5ec975566390ead24943e9_1_1793559288_2909.mp4
 cg_embala https://tempfile.aiquickdraw.com/k/fc57ae11d9b3fe43e285dbcc51564181_1_1793559302_6883.mp4
+cg_mostra https://tempfile.aiquickdraw.com/k/c118f8e5ead3320da36fda6f65e712b7_1_1793559580_5126.mp4
